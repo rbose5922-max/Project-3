@@ -4,7 +4,7 @@ services:
       ports:
         - "8080:8080"
       volumes:
-        - notes-data:/data
+        - notes-data:/app/data
 
 volumes:
   notes-data:
