@@ -3,7 +3,7 @@ import sqlite3
 
 app=Flask(__name__)
 
-DB_NAME = '/app/data/database.db'
+DB_NAME = '/data/database.db'
 
 def init_db():
     conn = sqlite3.connect(DB_NAME)
